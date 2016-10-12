@@ -20,6 +20,9 @@ class ViewController: UIViewController {
     {
         let operation = TestOperationServiceA(sampleId: "A014536924")
             operation.start()
+        
+        let operation2 = TestOperationServiceA(sampleId: "B014536926")
+            operation2.start()
     }
 
 }

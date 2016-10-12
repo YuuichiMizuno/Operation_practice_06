@@ -10,6 +10,9 @@
  * 結論としては、addするのは１回に限定して、その中で条件に応じてprivateを呼び分ければ可能
  * GCDのDispatchQueue.mainは使わない
  */
+/* 通信が入る非同期の処理を含んだ場合が気になる
+ * NSURLRequestなどのAPI処理 -> 一般的よくあるパターンで検証したい
+ */
 
 import Foundation
 
