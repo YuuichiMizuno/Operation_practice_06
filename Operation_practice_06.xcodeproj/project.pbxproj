@@ -12,6 +12,7 @@
 		4B11656A1DADDD010048A2A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B1165681DADDD010048A2A0 /* Main.storyboard */; };
 		4B11656C1DADDD010048A2A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B11656B1DADDD010048A2A0 /* Assets.xcassets */; };
 		4B11656F1DADDD010048A2A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B11656D1DADDD010048A2A0 /* LaunchScreen.storyboard */; };
+		4B1165771DADDD460048A2A0 /* TestOperationServiceA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1165761DADDD460048A2A0 /* TestOperationServiceA.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4B11656B1DADDD010048A2A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B11656E1DADDD010048A2A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B1165701DADDD010048A2A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B1165761DADDD460048A2A0 /* TestOperationServiceA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestOperationServiceA.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +56,13 @@
 		4B1165631DADDD010048A2A0 /* Operation_practice_06 */ = {
 			isa = PBXGroup;
 			children = (
+				4B1165701DADDD010048A2A0 /* Info.plist */,
+				4B11656D1DADDD010048A2A0 /* LaunchScreen.storyboard */,
+				4B1165681DADDD010048A2A0 /* Main.storyboard */,
 				4B1165641DADDD010048A2A0 /* AppDelegate.swift */,
 				4B1165661DADDD010048A2A0 /* ViewController.swift */,
-				4B1165681DADDD010048A2A0 /* Main.storyboard */,
+				4B1165761DADDD460048A2A0 /* TestOperationServiceA.swift */,
 				4B11656B1DADDD010048A2A0 /* Assets.xcassets */,
-				4B11656D1DADDD010048A2A0 /* LaunchScreen.storyboard */,
-				4B1165701DADDD010048A2A0 /* Info.plist */,
 			);
 			path = Operation_practice_06;
 			sourceTree = "<group>";
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					4B1165601DADDD010048A2A0 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4PF2E3SG23;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B1165671DADDD010048A2A0 /* ViewController.swift in Sources */,
+				4B1165771DADDD460048A2A0 /* TestOperationServiceA.swift in Sources */,
 				4B1165651DADDD010048A2A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4PF2E3SG23;
 				INFOPLIST_FILE = Operation_practice_06/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "atoms.Operation-practice-06";
@@ -272,6 +278,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4PF2E3SG23;
 				INFOPLIST_FILE = Operation_practice_06/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "atoms.Operation-practice-06";
